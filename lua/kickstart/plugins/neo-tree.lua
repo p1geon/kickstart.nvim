@@ -20,7 +20,7 @@ return {
       },
       window = {
         mappings = {
-          -- ['\\'] = 'close_window',
+          ['\\'] = 'close_window',
           -- ['P'] = 'toggle_preview', -- preview file on the side
           -- ['l'] = 'open', -- open file or expand folder
           -- ['h'] = 'close_node', -- collapse folder

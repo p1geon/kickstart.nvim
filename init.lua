@@ -966,11 +966,11 @@ require('lazy').setup({
   {
     'sindrets/diffview.nvim',
     dependencies = { 'nvim-lua/plenary.nvim' },
-    cmd = { 'DiffviewOpen', 'DiffviewClose', 'DiffviewFileHistory' },
-    keys = {
-      { '<leader>gd', '<cmd>DiffviewOpen<CR>', desc = 'Git Diff (Diffview)' },
-      { '<leader>gh', '<cmd>DiffviewFileHistory<CR>', desc = 'Git File History' },
-    },
+    -- cmd = { 'DiffviewOpen', 'DiffviewClose', 'DiffviewFileHistory' },
+    -- keys = {
+    --   { '<leader>gd', '<cmd>DiffviewOpen<CR>', desc = 'Git Diff (Diffview)' },
+    --   { '<leader>gh', '<cmd>DiffviewFileHistory<CR>', desc = 'Git File History' },
+    -- },
     config = function()
       require('diffview').setup()
     end,
